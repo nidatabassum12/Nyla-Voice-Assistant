@@ -1,4 +1,4 @@
-# 🎙️ Nyla – AI Voice Assistant
+# 🎙️ Nyla – Python Voice Assistant
 
 ## 📌 Project Overview
 
