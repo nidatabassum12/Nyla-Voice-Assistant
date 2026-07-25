@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-Nyla is a Python-based AI Voice Assistant that listens to voice commands and performs various tasks such as opening websites, searching Google, providing weather updates, answering general knowledge questions, sending emails, setting reminders, opening desktop applications, and more.
+Nyla is a Python-based Voice Assistant that listens to voice commands and performs various tasks such as opening websites, searching Google, providing weather updates, answering general knowledge questions, sending emails, setting reminders, opening desktop applications, and more.
 
 The assistant uses Speech Recognition for voice input and Text-to-Speech to communicate naturally with the user.
 
@@ -19,7 +19,7 @@ The assistant uses Speech Recognition for voice input and Text-to-Speech to comm
 - 🔍 Performs Google search
 - 🌐 Opens Google
 - ▶️ Opens YouTube
-- 🤖 Opens ChatGPT
+- 🤖 Opens ChatGPT website
 - 🔊 Voice responses for every command
 - ⚠️ Graceful error handling for speech recognition
 
@@ -30,8 +30,7 @@ The assistant uses Speech Recognition for voice input and Text-to-Speech to comm
 - 🌦️ Live Weather Updates using OpenWeatherMap API
 - 📧 Send Email using Gmail SMTP
 - ⏰ Set Reminders
-- 📚 Wikipedia-based General Knowledge
-- 🤖 AI Chat using OpenAI API
+- 📚 General Knowledge using Wikipedia
 - 🧠 Basic Natural Language Understanding
 - 💻 Open Notepad
 - 🧮 Open Calculator
@@ -51,11 +50,11 @@ The assistant uses Speech Recognition for voice input and Text-to-Speech to comm
 - Edge-TTS
 - Pygame
 - Requests
-- OpenAI API
 - OpenWeatherMap API
 - SMTP (Gmail)
 - PyAutoGUI
 - PyJokes
+- Wikipedia API
 
 ---
 
@@ -70,7 +69,6 @@ pip install pygame
 pip install requests
 pip install pyautogui
 pip install pyjokes
-pip install openai
 pip install pyaudio
 ```
 
@@ -78,14 +76,9 @@ pip install pyaudio
 
 # ▶️ How to Run
 
-1. Install Python 3.x
+1. Install Python 3.x.
 2. Install all required libraries.
-3. Add your API keys:
-
-- OpenWeatherMap API Key
-- OpenAI API Key
-- Gmail App Password
-
+3. Add your OpenWeatherMap API Key and Gmail App Password.
 4. Run the project:
 
 ```bash
@@ -124,10 +117,6 @@ python main.py
 
 - Who is Virat Kohli?
 - What is Artificial Intelligence?
-
-### AI Chat
-
-- Ask What is Machine Learning?
 
 ### Email
 
@@ -179,7 +168,6 @@ VoiceAssistant/
   - Google Search
   - Weather Updates
   - Wikipedia Search
-  - AI Chat
   - Email Sending
 - API keys and Gmail App Password should be kept private and should never be shared publicly.
 - No personal data is stored by the application unless explicitly configured by the user.
