@@ -1,0 +1,8 @@
+SpeechRecognition
+edge-tts
+pygame
+requests
+pyautogui
+pyjokes
+pyaudio
+wikipedia
